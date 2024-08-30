@@ -8,7 +8,7 @@ This project involves creating a SimpleLoader for loading and executing ELF 32-b
 # PROJECT STRUCTURE
 
 main/ 
-│ 
+│                     
 ├── bin/ 
 │   ├── launch        # Executable for running the loader 
 │   └── lib_simpleloader.so # Compiled shared library 
