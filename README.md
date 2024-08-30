@@ -39,19 +39,20 @@ To compile and build the project, follow these steps:
 
 # USAGE
 Prepare the test case:
-    The test case fib.c should be compiled using the following command:
-        gcc -m32 -no-pie -nostdlib -o test/fib test/fib.c
-    Run the loader:
-        Use the launch executable to run the loader with the compiled ELF file as a command-line argument:
-        ./bin/launch test/fib
-        This will load and execute the fib ELF file using lib_simpleloader.so.
+
+    1. The test case fib.c should be compiled using the following command:
+        a. gcc -m32 -no-pie -nostdlib -o test/fib test/fib.c
+    2. Run the loader:
+        a. Use the launch executable to run the loader with the compiled ELF file as a command-line argument:
+            i. ./bin/launch test/fib
+        b. This will load and execute the fib ELF file using lib_simpleloader.so.
 
 
 # REFERENCES
-ELF Specification: https://man7.org/linux/man-pages/man5/elf.5.html
-OSDev ELF Tutorial: https://wiki.osdev.org/ELF_Tutorial
+1. ELF Specification: https://man7.org/linux/man-pages/man5/elf.5.html
+2. OSDev ELF Tutorial: https://wiki.osdev.org/ELF_Tutorial
 
 
 # CONTRIBUTERS
-Manaswi Singh (2023307)
-Paridhi Kotaraya (2023367)
+1. Manaswi Singh (2023307)
+2. Paridhi Kotaraya (2023367)
