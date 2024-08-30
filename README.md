@@ -8,21 +8,37 @@ This project involves creating a SimpleLoader for loading and executing ELF 32-b
 # PROJECT STRUCTURE
 
 main/
+
 │
+
 ├── bin/
+
 │   ├── launch        # Executable for running the loader
+
 │   └── lib_simpleloader.so # Compiled shared library
+
 │
+
 ├── src/
+
 │   ├── loader.c     # Implementation of the SimpleLoader
+
 │   └── launch.c     # Helper program for executing the loader
+
 │
+
 ├── test/
+
 │   └── fib.c        # Test case for the loader
+
 │
+
 ├── Makefile         # Top-level Makefile to build the project
+
 ├── README.md        # This file
+
 └── design_document.pdf # Design document detailing the implementation and contributions
+
 
 
 # INSTALLATION
