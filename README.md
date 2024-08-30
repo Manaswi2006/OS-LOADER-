@@ -1,10 +1,12 @@
 # OS-LOADER
 
-OVERVIEW
+# OVERVIEW
+
 This project involves creating a SimpleLoader for loading and executing ELF 32-bit executables in plain C. The loader must be implemented from scratch without using any external library APIs for manipulating ELF files. The resulting code will be compiled into a shared library (lib_simpleloader.so) and used to load and run executable files through a helper program.
 
 
-PROJECT STRUCTURE
+# PROJECT STRUCTURE
+
 main/
 │
 ├── bin/
@@ -23,7 +25,7 @@ main/
 └── design_document.pdf # Design document detailing the implementation and contributions
 
 
-INSTALLATION
+# INSTALLATION
 To compile and build the project, follow these steps:
 
     1. Clone the repository:
@@ -35,7 +37,7 @@ To compile and build the project, follow these steps:
         This will compile the loader.c into a shared library (lib_simpleloader.so) and the launch.c into an executable (launch).
 
 
-USAGE
+# USAGE
 Prepare the test case:
     The test case fib.c should be compiled using the following command:
         gcc -m32 -no-pie -nostdlib -o test/fib test/fib.c
@@ -45,11 +47,11 @@ Prepare the test case:
         This will load and execute the fib ELF file using lib_simpleloader.so.
 
 
-REFERENCES
+# REFERENCES
 ELF Specification: https://man7.org/linux/man-pages/man5/elf.5.html
 OSDev ELF Tutorial: https://wiki.osdev.org/ELF_Tutorial
 
 
-CONTRIBUTERS
+# CONTRIBUTERS
 Manaswi Singh (2023307)
 Paridhi Kotaraya (2023367)
