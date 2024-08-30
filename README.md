@@ -78,4 +78,4 @@ REFERENCES
 CONTRIBUTERS
 ----
 1. Manaswi Singh (2023307)
-2. Paridhi Kotaraya (2023367)
+2. Paridhi Kotarya (2023367)
