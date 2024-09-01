@@ -46,7 +46,7 @@ void* load_segment(int fd, Elf32_Phdr *phdr) {
     return segment_addr;
 }
 
-void load_and_run_elf(char** exe) {
+void load_and_run_elf(&argv[1]) {
     fd = open(exe[0], O_RDONLY);
     if (fd < 0) {
         perror("open");
