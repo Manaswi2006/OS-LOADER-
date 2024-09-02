@@ -9,11 +9,6 @@ This project involves creating a SimpleLoader for loading and executing ELF 32-b
 PROJECT STRUCTURE
 ----
 
-├── bin
-
-│      ├── fib
-
-│      └── lib_simpleloader.so
 
 ├── src
 
@@ -52,7 +47,7 @@ USAGE
 ----
 Prepare the test case:
 
-    1. The test case fib.c should be compiled after the 'make' command
+    1. The test case fib.c should be compiled after the 'make all' command
     2. Run the loader:
         a. Use the launch executable to run the loader with the compiled ELF file as a command-line argument:
             ./src/loader ../test/fib
