@@ -10,18 +10,31 @@ PROJECT STRUCTURE
 ----
 
 ├── bin
+
 │   ├── fib
+
 │   └── lib_simpleloader.so
+
 ├── src
+
 │   ├── loader
+
 │   ├── loader.c
+
 │   └── loader.h
+
 │   └── Makefile
+
 ├── test
+
 │   ├── Makefile
+
 │   └── fib
+
 │   └── fib.c
+
 ├── README.md
+
 └── Makefile
 
 
