@@ -11,27 +11,27 @@ PROJECT STRUCTURE
 
 ├── bin
 
-│   ├── fib
+│      ├── fib
 
-│   └── lib_simpleloader.so
+│      └── lib_simpleloader.so
 
 ├── src
 
-│   ├── loader
+│      ├── loader
 
-│   ├── loader.c
+│      ├── loader.c
 
-│   └── loader.h
+│      └── loader.h
 
-│   └── Makefile
+│      └── Makefile
 
 ├── test
 
-│   ├── Makefile
+│      ├── Makefile
 
-│   └── fib
+│      └── fib
 
-│   └── fib.c
+│      └── fib.c
 
 ├── README.md
 
